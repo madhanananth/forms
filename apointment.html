@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Schedule</title>
+</head>
+<body>
+    <!-- Appointment Scheduling Form
+
+Inputs: Text, Email, Date, Number
+
+	•	Create an appointment scheduling form with:
+	•	Full Name (Text input)
+	•	Email Address (Email input)
+	•	Appointment Date (Date input)
+	•	Contact Number (Number input)
+	•	Add a submit button. -->
+    <form action="url" method="post">
+        <h1>Appointment Schedule</h1>
+        <div>
+            <label for="name"> Full Name:</label>
+            <input type="text" id="name" name="Full name" required >
+        </div><br>
+        <div>
+            <label for="email">Email Address:  </label>
+            <input type="email" id="email" name="Email Address " >
+        </div><br>
+        <div>
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="Appointment Date "  >
+        </div><br>
+        <div>
+            <label for="contact">Contact number:</label>
+            <input type="number" id="contact" name="Contact number" min="1000000000" max="9999999999"  required >
+        </div><br>
+
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+
+    </form>
+</body>
+</html>
